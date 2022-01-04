@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Ovenoboyo/basic_webserver/pkg/crypto"
-	db "github.com/Ovenoboyo/basic_webserver/pkg/database"
-	"github.com/Ovenoboyo/basic_webserver/pkg/middleware"
+	"github.com/Temons05/basic_webserver/pkg/crypto"
+	db "github.com/Temons05/basic_webserver/pkg/database"
+	"github.com/Temons05/basic_webserver/pkg/middleware"
 
 	"github.com/gorilla/mux"
 )
