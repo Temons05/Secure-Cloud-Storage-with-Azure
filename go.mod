@@ -1,4 +1,4 @@
-module github.com/Ovenoboyo/basic_webserver
+module github.com/Temons05/basic_webserver
 
 go 1.16
 
