@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	db "github.com/Ovenoboyo/basic_webserver/pkg/database"
-	"github.com/Ovenoboyo/basic_webserver/pkg/storage"
+	db "github.com/Temons05/basic_webserver/pkg/database"
+	"github.com/Temons05/basic_webserver/pkg/storage"
 	"github.com/gorilla/mux"
 )
 
