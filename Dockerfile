@@ -1,7 +1,7 @@
 # Build Frontend
 FROM node:16.12.0-alpine3.14 as frontenv
 
-LABEL maintainer="Sahil Gupte <sahilsachingupte@gmail.com>"
+LABEL maintainer="Kunal Chakate <kunalchakate05@gmail.com>"
 
 RUN mkdir -p /build
 WORKDIR /build
@@ -14,7 +14,7 @@ RUN yarn install && yarn build
 # Build backend
 FROM golang:alpine AS buildenv
 
-LABEL maintainer="Sahil Gupte <sahilsachingupte@gmail.com>"
+LABEL maintainer="Kunal Chakate <kunalchakate05@gmail.com>"
 
 ARG VERSION
 ARG GIT_COMMIT
