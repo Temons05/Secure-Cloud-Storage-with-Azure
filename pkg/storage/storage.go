@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 
 	"github.com/Azure/azure-storage-blob-go/azblob"
-	"github.com/Ovenoboyo/basic_webserver/pkg/database"
-	db "github.com/Ovenoboyo/basic_webserver/pkg/database"
+	"github.com/Temons05/basic_webserver/pkg/database"
+	db "github.com/Temons05/basic_webserver/pkg/database"
 	"github.com/google/uuid"
 )
 
